@@ -1,0 +1,28 @@
+﻿
+@using Shop.Data.Models
+@model IEnumerable<Book>
+
+@{
+    Layout = null;
+}
+
+<!DOCKTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width-devise-width" />
+        <title>List</title>
+    </head>
+    <body>
+        <h2>Всі книжки</h2>
+        @{
+            foreach(var book in Model)
+            {
+                <div>
+                <h2>Назва: @book.name</h2>
+                <p>Ціна: @book.price.ToString("c")</p>
+                </div>
+            }
+        }
+    </body>
+</html>

@@ -14,3 +14,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Asus\Documents\GitHub\BookShop\Shop\Shop
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Asus/Documents/GitHub/BookShop/Shop/Shop/Views/Books/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
